@@ -6,5 +6,37 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 5%;
+}
+#content {
+  display: flex;
+  justify-content: center;
+
+}
+#description{
+  width: 40%;
+  margin-left: 80px;
+  border:1px solid gray;
+  box-shadow: azure 5px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button{
+  background-color:#06365f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8em;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  
+}
+li{
+  margin: 15px;
 }
