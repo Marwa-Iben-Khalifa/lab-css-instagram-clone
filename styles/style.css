@@ -8,35 +8,54 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 5%;
 }
+h1{
+  color: #06365f;
+  text-align: left;
+}
 #content {
   display: flex;
   justify-content: center;
-
 }
-#description{
+#description {
   width: 40%;
   margin-left: 80px;
-  border:1px solid gray;
   box-shadow: azure 5px;
+  background-color: white;
 }
-header{
+#text {
+  border: 1px solid gray;
+  padding: 15px;
+  text-align: justify;
+  border-radius: 10px;
+}
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
-button{
-  background-color:#06365f;
+button {
+  background-color: #06365f;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 8em;
+  color: white;
 }
-ul{
+button img {
+  margin: 5px;
+}
+ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  
+  margin-top: 30px ;
 }
-li{
+li {
   margin: 15px;
+  color: #06365f;
+  font-weight: 500;
+}
+#copyright {
+  color: grey;
 }
